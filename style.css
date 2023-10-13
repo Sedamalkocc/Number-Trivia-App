@@ -6,7 +6,8 @@
 }
 
 body{
-    background-color: #8FBC8F;
+    
+    background-color: #BC8F8F;
 }
 .container{
     background-color: #FFFAF0;
@@ -41,7 +42,7 @@ body{
 }
 .container button{
     width: 55%;
-    background-color: #90EE90;
+    background-color: #8FBC8F;
     color: #FFFAF0;
     font-weight: 500;
     padding: 0.7em;
@@ -51,3 +52,30 @@ body{
     width: 100%;
     margin-top: 1em;
 }
+.fact {
+    background-color: #8FBC8F;
+    box-shadow: 0 0 1.2em rgba(0, 4, 52, 0.1);
+    margin: 3em auto 0 auto;
+    padding: 2.8em 1.8em;
+    border-radius: 0.6em;
+    border: none;
+    border-bottom: 0.6em solid #BC8F8F;
+    display: none;
+  }
+  .fact h2 {
+    font-size: 2.8em;
+    color: #181a34;
+  }
+  .fact p {
+    font-size: 1.15em;
+    font-weight: 400;
+    color: #50526b;
+    line-height: 1.8em;
+    text-align: justify;
+    margin-top: 0.8em;
+  }
+  p.msg {
+    text-align: center;
+    font-weight: 500;
+    color: #181a34;
+  }
